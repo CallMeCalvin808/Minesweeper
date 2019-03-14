@@ -44,7 +44,6 @@ public void setBombs()
     int ranCol = (int)(Math.random() * NUM_COLS);
     if (!bombs.contains(buttons[ranRow][ranCol])){
       bombs.add(buttons[ranRow][ranCol]);
-      println(ranRow + " " + ranCol);
     }
 }
 
